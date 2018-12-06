@@ -30,11 +30,16 @@ public class Solution {
         addElements(myMap, h2Sort);
         addElements(myMap, h3Sort);
 
+        int key = 0;
+
         Iterator it = myMap.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
             if((int)pair.getValue() == 3){
-                stack = (int)pair.getKey();
+                if(key < (int)pair.getKey()){
+                    stack = (int)pair.getKey();
+                    key = (int)pair.getKey();
+                }
             }
         }
         return stack;
