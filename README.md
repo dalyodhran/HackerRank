@@ -8,6 +8,7 @@
 
 
 * [Data Structures](#data-structures)
+* [Algorithms](#algorithms)
 
 # Data Structures
 
@@ -56,3 +57,11 @@
 |      Tries      | [Contacts](https://www.hackerrank.com/challenges/contacts)                                                                                             |   40   | Solution.java                                                                            |
 |      Queues     | [Queue using Two Stacks](https://www.hackerrank.com/challenges/queue-using-two-stacks)                                                                 |   30   | Solution.java                                                      |
 |      Heaps      | [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median)                                                               |   50   | Solution.java                                                      |
+
+
+
+# Algorithms
+
+|    Subdomain    |                                                                        Challenge                                                                       | Points |                                                                                                  Solution                                                                                                  |
+|:---------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------:|:------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      Warmup     | [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first)                                                                                         |   1   | Solution.java                                                                   |
