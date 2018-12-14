@@ -32,17 +32,4 @@ public class Solution {
                 System.out.println("True special");
             }
         }
-
-         if(n > 5){
-            myList.add(true);
-            System.out.println("True size");
-            return 5 - myList.size();
-        } else {
-            if((6 - n) > 5 - myList.size()){
-                return (6 - n);
-            } else {
-                return (5 - myList.size());
-            }
-             //-
-        }
     }
