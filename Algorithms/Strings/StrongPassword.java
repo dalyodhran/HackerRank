@@ -22,7 +22,7 @@ public class Solution {
                 myList.add(true);
                 hasLower = true;
                 System.out.println("True lower");
-            } else if(!hasNumber && password.charAt(i) >= 48 && password.charAt(i) <= 49){
+            } else if(!hasNumber && password.charAt(i) >= 48 && password.charAt(i) <= 57){
                 myList.add(true);
                 hasNumber = true;
                 System.out.println("True number");
@@ -32,4 +32,18 @@ public class Solution {
                 System.out.println("True special");
             }
         }
+
+         if(n > 5){
+            myList.add(true);
+            System.out.println("True size");
+            return 5 - myList.size();
+        } else {
+            if((6 - n) > 4 - myList.size()){
+                return (6 - n);
+            } else {
+                return (4 - myList.size());
+            }
+             //-
+        }
     }
+}
