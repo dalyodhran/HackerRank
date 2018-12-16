@@ -43,7 +43,6 @@ public class Solution {
             } else {
                 return (4 - myList.size());
             }
-             //-
         }
     }
 }
